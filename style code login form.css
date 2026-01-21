@@ -1,0 +1,27 @@
+body{
+    height: 100vh;
+    background: url(https://picsum.photos/800) center/cover;
+    display: flex;
+    justify-self: center;
+    text-align: center;
+    border  : 2px solid black;
+}
+.container{
+    width: 300px;
+    padding: 30px;
+    backdrop-filter: blur(10px);
+    background: rgba(255,255,255,0.2);
+    border-radius: 15px;
+    text-align: center;
+}
+input, button{
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 7px;
+    border: none;
+}
+button{
+    background: blue;
+    color: white;
+}
